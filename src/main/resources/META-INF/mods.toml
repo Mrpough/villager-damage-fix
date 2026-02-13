@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="villagerrecruitsdamagefix"
+version="1.0.0"
+displayName="Villager Recruits Damage Fix"
+description='''
+Removes the damage cap for Villager Recruits bowmen with high-level Power enchantments,
+allowing them to deal full damage even against Protection IV armor.
+'''
+authors="Custom Mod"
+
+[[dependencies.villagerrecruitsdamagefix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.villagerrecruitsdamagefix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
